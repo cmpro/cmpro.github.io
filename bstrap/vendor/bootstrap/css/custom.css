@@ -1,0 +1,241 @@
+@import "compass/css3";
+
+$body-bg: #c1bdba;
+$form-bg: #13232f;
+$white: #ffffff;
+
+$main: #1ab188;
+$main-light: lighten($main,5%);
+$main-dark: darken($main,5%);
+
+$gray-light: #a0b3b0;
+$gray: #ddd;
+
+$thin: 300;
+$normal: 400;
+$bold: 600;
+$br: 4px;
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+	overflow-y: scroll; 
+}
+
+body {
+  background:$body-bg;
+  font-family: 'Titillium Web', sans-serif;
+    background-color: white;
+}
+
+a {
+  text-decoration:none;
+  color:$main;
+  transition:.5s ease;
+  &:hover {
+    color:$main-dark;
+  }
+}
+
+.form {
+  background: white;
+  padding: 40px;
+  max-width:600px;
+  margin:40px auto;
+  border-radius:$br;
+  box-shadow:0 4px 10px 4px rgba($form-bg,.3);
+}
+
+.tab-group {
+  list-style:none;
+  padding:0;
+  margin:0 0 40px 0;
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  li a {
+    display:block;
+    text-decoration:none;
+    padding:15px;
+    background:rgba($gray-light,.25);
+    color:$gray-light;
+    font-size:20px;
+    float:left;
+    width:50%;
+    text-align:center;
+    cursor:pointer;
+    transition:.5s ease;
+    &:hover {
+      background:$main-dark;
+      color:$white;
+    }
+  }
+  .active a {
+    background:$main;
+    color:$white;
+  }
+}
+
+.tab-content > div:last-child {
+  display:none;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+p{
+    margin-top: 20px;
+    margin-left: 50px;
+    text-align: center;
+    
+}
+.tabel{
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.option{
+    margin-top: 100px;
+    text-align: center;
+}
+.newfooter{
+    display: block;
+    margin-left: 750;
+}
+.footnav ul {
+  list-style: none;
+  background-color: #fff;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.footnav li{
+    font-family: sans-serif;
+    display: inline-block;
+    margin-right: -4px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+}
+.custom{
+    
+    }
+.content_header {
+  background-color: white;
+ 
+  padding: 20px;
+  text-align: center;
+font-size: 30px;
+  margin:10px;
+}
+
+.content_picto_cap {
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 50px;
+    
+}
+.content_kiri{
+    height: 500px;
+    border: 1px solid gray;
+}
+.content_kanan{
+    height: 500px;
+    border: 1px solid gray;
+}
+.isi_kanan_atas{
+    background-color: gray;
+}
+.isi_kanan_atas h3{
+    text-align: center;
+}
+.isi_kanan_atas h5{
+    text-align: justify;
+    padding: 10px;
+}
+.isi_kanan_bawah{
+    background-color: gray;
+}
+.kotak_style{
+    border: 1px solid #000;
+    background-color: white;
+}
+
+body {font-family: "Lato", sans-serif;
+}
+
+ul.tab_kiri {
+    list-style-type: none;
+    margin-left: 10px;
+    padding: 0;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+/* Float the list items side by side */
+ul.tab_kiri li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab_kiri li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab_kiri li a:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+ul.tab_kiri li a:focus, .active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px;
+    border: 1px solid #ccc;
+    height: 435px;
+    background-color: white;
+    margin-left: 10px;
+}
+
+
+td, th {
+    border: 1px solid #eee;
+    text-align: left;
+    padding: 15px;
+    }
+
+table {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #eee;
+    margin-left: 100px;
+}
+.tab_kanan{
+   height: 500px;
+   border: 1px #ccc;
+    margin-right: 10px;
+}
+.footer_tab_kanan{
+margin-left: 175px;  
+    
+}

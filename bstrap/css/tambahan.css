@@ -1,0 +1,43 @@
+.header_detail{
+    background-color: #aeaeae;
+}
+.kiri{
+    background-color: aqua;
+    height: 300px;
+}
+.kiri img{
+    padding: 10px;
+    text-align: right;
+}
+.kanan{
+    background-color: brown;
+    height: 300px;
+}
+.list-produk{
+    text-align: justify
+}
+.list-produk{
+    text-align: justify;
+}
+h2.subtitle{
+    color: black;
+}
+
+figure figcaption h5{
+    color:black;
+    text-align: center;
+}
+figure figcaption h4{
+    color:black;
+    text-align: center;
+}
+h1.title{
+    color: black;
+}
+figure figcaption{
+    text-align: justify;
+}
+.list-produk{
+    font-size: 18px;
+    text-align: justify;
+}
